@@ -41,10 +41,7 @@ pip install -r requirements.txt
 ## Dataset Preparation
 
 1. Download the [Oxford-102 Flowers Dataset](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)
-2. Prepare text embeddings using Sentence-BERT:
-```bash
-python scripts/preprocess_text.py --data_dir data/flowers --output_dir data/embeddings
-```
+2. Or download the text embeddings from google drive [here](www.youtube.com).
 
 The expected directory structure:
 ```
