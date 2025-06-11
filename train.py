@@ -10,6 +10,27 @@ from torch.utils.data import DataLoader
 from torchvision.utils import save_image
 from tqdm import tqdm
 import numpy as np
+import yaml
+from utils import get_device
+from models import Generator,Discriminator
+from datasets import Oxford102Dataset
+
+
+with open("config.yaml",'r') as file:
+    configs = yaml.safe_load(file)
+
+# intialize all the variables here from the config file 
+noise_dim = configs[""]
+text_latent_dim = configs[""]
+num_classes = configs[""]
+lr = configs["lr"]
+text_embed_dim = configs[""]
+batch_size = configs["batch_size"]
+
+device = get_device()
+
+# datasets 
+train_dataset = Oxford102Dataset()
 
 
 # Initialize models
