@@ -1,6 +1,6 @@
 # Text-Conditioned Auxiliary Classifier GAN (TAC-GAN)
 
-![Generated Flower Samples](1746356664355.jpg)
+![Generated Flower Samples](sample_1.jpg)
 
 A PyTorch implementation of TAC-GAN for text-to-image generation, specifically designed for the Oxford-102 Flowers dataset. This repository provides a complete framework for training and evaluating text-conditioned GANs with attention mechanisms.
 
